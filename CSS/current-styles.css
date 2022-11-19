@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+}
+.imglogo{
+    width: 20%;
+    height: 20%;
+}
+.imgbanner{
+    width: 70%;
+    height: auto;
+}
+p{ 
+  color: white;
+  font-size: 4vh;
+}
+.ul{
+    padding-inline-start: 0px;
+}
+ul li{
+    display: inline;
+    list-style-type: none;
+ 
+}
+.listado{
+    color: white;
+    font-size: 22px;
+    border-style:outset;
+    border-color: white; 
+    border-width:3px ;   
+    background-color: gray;
+    text-decoration: none;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 5px; 
+} 
+.listado:hover{
+    color:red 
+}
+.listado:active{
+    color: yellow;
+}
+
+
+@media (max-width:425px) {
+    .listado{
+        font-size: 12px;
+        list-style-type: none;
+        }
+}
+ .color-subtitulo{
+    color: white;
+ }
+
+ h1{
+    color: white;
+    font-size: 28px;
+ }
+
+ .cabezalHome {
+    margin-top:15px;
+    margin-right: 10px;
+    margin-left: 0px;
+    width:300px;
+    height: 500px;
+    }
+ .textohome{
+    margin-top:15px;
+    width:auto;
+    height: 530px;
+    font-size: 18px;
+    border-style: dotted;
+    border-width: 1px;
+    Overflow: scroll;
+    overflow-x: hidden;
+}
+ 
+.animacion{
+    width: 100%;
+    height: auto;
+    padding: auto;
+}
+.form{
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top:15px;
+    
+}
+h2{
+    color: white;
+    font-size: 22px;
+    padding-top: 15px;
+}
+.iconoInstagram{
+   width:45px;
+   padding-top: 10px;
+}
+
+.iconoLinkedin{
+    width:45px; 
+    padding-top: 10px;
+}
+
+h2 {
+    padding-bottom: 30px;
+    font-size: 4vh;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 20;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-right:1%;
+      width: 90%
+    }
+    to {
+      margin-left: 30%;
+      width: 100%;
+    }
+  }
+ 
+.card-body{ 
+    background-color: black;
+    padding-top:10px;
+}
+.card-title{ 
+   color: white;
+}
+.card-text{
+font-size: 15px;
+color: white;
+  }
